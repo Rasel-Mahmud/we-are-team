@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "we-are-team/team",
+  "title": "Team Group",
+  "category": "text",
+  "icon": "dashicons dashicons-admin-comments",
+  "description": "Shows warning, error or success notices...",
+  "keywords": ["alert", "message"],
+  "version": "1.0.0",
+  "textdomain": "we-are-team",
+  "attributes": {
+    "content": {
+      "type": "string"
+    },
+    "oneImage": {
+      "type": "string"
+    },
+    "twoImage": {
+      "type": "string"
+    },
+    "threeImage": {
+      "type": "string"
+    },
+    "fourImage": {
+      "type": "string"
+    },
+    "five": {
+      "type": "string"
+    },
+    "perOne": {
+      "type": "string",
+      "default": "Jeff Buzz"
+    },
+    "perTwo": {
+      "type": "string",
+      "default": "Jesim Dov"
+    },
+    "perThree": {
+      "type": "string",
+      "default": "Simar Chan"
+    },
+    "perFour": {
+      "type": "string",
+      "default": "Tim Lake"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./index.css"
+}
